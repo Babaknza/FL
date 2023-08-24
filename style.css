@@ -1,0 +1,49 @@
+body{
+
+    background-color: rgb(255, 255, 255);
+    min-height: 2000px;
+    font-size: 1.2rem;
+
+}
+
+h1{
+    font-family: monospace;
+}
+
+.judul{
+    min-height: auto;
+    background-color: var(--bg);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../PF/20230824_113054_0000.jpg);
+    font-family: monospace;
+
+}
+
+
+.judul h4 span{
+    color: rgb(255, 0, 242);
+}
+
+.story .row {
+    display: flex;
+}
+
+
+
+.story{
+    padding: 800px 10%;
+}
+
+
+.story h1 span{
+    color: pink;
+}
+
+.row p{
+    font-size: 1.3rem;
+}
